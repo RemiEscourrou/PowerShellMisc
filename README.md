@@ -91,6 +91,7 @@ Custom Active Directory dumper that extracts inside several csv:
 - LDAP information (user, computer, OU, etc.) including ACL
 - Local data from remote servers thanks to NetAPI
 - GPO data and scripts
+
 Nothing new here, I wrote it to have a better understanding of [Bloodhound](https://github.com/BloodHoundAD/BloodHound) / [ADCP](https://github.com/ANSSI-FR/AD-control-paths) at his beginning. The performance is awful thanks to PowerShell :p
 
 Big up to my old friend @nicolas_dbresse with whom I started to play with the Active Directory <3
