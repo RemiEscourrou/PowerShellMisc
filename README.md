@@ -48,7 +48,9 @@ Allow changing a password from a remote forest.
 Provide a real-time table with the open sessions of the targeted users and track if the machine has been rebooted
 
 `$DA = (Get-DomainGroupMember "Admins du domaine" -Recurse).MemberName`
+
 `Invoke-UserMimiTab -UserTarget $DA -Verbose`
+
 ```
 UserName      SawOn          HostName                Version     SawAt               LastReboot          CredsInMemory
 --------      -----          --------                -------     -----               ----------          -------------
